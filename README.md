@@ -1,3 +1,3 @@
 # ConsultaValorEuro
-Realiza a consulta do valor do Euro em reais através da consulta de uma API.
-App construído utilizando ViewCode.
+App que reealiza a consulta da cotação do Euro através da consulta de uma API.
+Construído utilizando ViewCode.
