@@ -16,7 +16,7 @@ enum NetworkingError: Error {
 
 class Service {
     
-    var url = "https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL2"
+    var url = "https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL"
     var session = URLSession.shared
     
     func euroValue(completion: @escaping ( String?, Error?) -> (Void )) {
