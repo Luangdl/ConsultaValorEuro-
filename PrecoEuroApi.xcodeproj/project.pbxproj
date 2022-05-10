@@ -10,20 +10,26 @@
 		8A93C7EB280F28A200D3BA20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A93C7EA280F28A200D3BA20 /* AppDelegate.swift */; };
 		8A93C7ED280F28A200D3BA20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A93C7EC280F28A200D3BA20 /* SceneDelegate.swift */; };
 		8A93C7EF280F28A200D3BA20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A93C7EE280F28A200D3BA20 /* ViewController.swift */; };
-		8A93C7F2280F28A200D3BA20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A93C7F0280F28A200D3BA20 /* Main.storyboard */; };
 		8A93C7F4280F28A300D3BA20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A93C7F3280F28A300D3BA20 /* Assets.xcassets */; };
 		8A93C7F7280F28A300D3BA20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A93C7F5280F28A300D3BA20 /* LaunchScreen.storyboard */; };
+		8A93C7FF28103AD000D3BA20 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A93C7FE28103AD000D3BA20 /* Service.swift */; };
+		8A93C80128104FA400D3BA20 /* ViewCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A93C80028104FA400D3BA20 /* ViewCode.swift */; };
+		B2B022E74E7D360B120E1257 /* Pods_PrecoEuroApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7016E1ED092310884DD48AB2 /* Pods_PrecoEuroApi.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		41A259A3BBD34546C4F447A7 /* Pods-PrecoEuroApi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrecoEuroApi.debug.xcconfig"; path = "Target Support Files/Pods-PrecoEuroApi/Pods-PrecoEuroApi.debug.xcconfig"; sourceTree = "<group>"; };
+		7016E1ED092310884DD48AB2 /* Pods_PrecoEuroApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrecoEuroApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A93C7E7280F28A200D3BA20 /* PrecoEuroApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrecoEuroApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A93C7EA280F28A200D3BA20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A93C7EC280F28A200D3BA20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8A93C7EE280F28A200D3BA20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8A93C7F1280F28A200D3BA20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A93C7F3280F28A300D3BA20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A93C7F6280F28A300D3BA20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A93C7F8280F28A300D3BA20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A93C7FE28103AD000D3BA20 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		8A93C80028104FA400D3BA20 /* ViewCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCode.swift; sourceTree = "<group>"; };
+		A65710E6DC14F5873FCF46EC /* Pods-PrecoEuroApi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrecoEuroApi.release.xcconfig"; path = "Target Support Files/Pods-PrecoEuroApi/Pods-PrecoEuroApi.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2B022E74E7D360B120E1257 /* Pods_PrecoEuroApi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				8A93C7E9280F28A200D3BA20 /* PrecoEuroApi */,
 				8A93C7E8280F28A200D3BA20 /* Products */,
+				F4E43EAF78F571A63CB40510 /* Pods */,
+				93F3FFC7E1CC2CEAE6A523CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +67,31 @@
 			children = (
 				8A93C7EA280F28A200D3BA20 /* AppDelegate.swift */,
 				8A93C7EC280F28A200D3BA20 /* SceneDelegate.swift */,
+				8A93C7FE28103AD000D3BA20 /* Service.swift */,
 				8A93C7EE280F28A200D3BA20 /* ViewController.swift */,
-				8A93C7F0280F28A200D3BA20 /* Main.storyboard */,
+				8A93C80028104FA400D3BA20 /* ViewCode.swift */,
 				8A93C7F3280F28A300D3BA20 /* Assets.xcassets */,
 				8A93C7F5280F28A300D3BA20 /* LaunchScreen.storyboard */,
 				8A93C7F8280F28A300D3BA20 /* Info.plist */,
 			);
 			path = PrecoEuroApi;
+			sourceTree = "<group>";
+		};
+		93F3FFC7E1CC2CEAE6A523CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7016E1ED092310884DD48AB2 /* Pods_PrecoEuroApi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4E43EAF78F571A63CB40510 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41A259A3BBD34546C4F447A7 /* Pods-PrecoEuroApi.debug.xcconfig */,
+				A65710E6DC14F5873FCF46EC /* Pods-PrecoEuroApi.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A93C7FB280F28A300D3BA20 /* Build configuration list for PBXNativeTarget "PrecoEuroApi" */;
 			buildPhases = (
+				E6D58AEEF5C8384DE0B73B69 /* [CP] Check Pods Manifest.lock */,
 				8A93C7E3280F28A200D3BA20 /* Sources */,
 				8A93C7E4280F28A200D3BA20 /* Frameworks */,
 				8A93C7E5280F28A200D3BA20 /* Resources */,
+				FB68EF2E417657FC65FF19E3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,11 +156,52 @@
 			files = (
 				8A93C7F7280F28A300D3BA20 /* LaunchScreen.storyboard in Resources */,
 				8A93C7F4280F28A300D3BA20 /* Assets.xcassets in Resources */,
-				8A93C7F2280F28A200D3BA20 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E6D58AEEF5C8384DE0B73B69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PrecoEuroApi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB68EF2E417657FC65FF19E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PrecoEuroApi/Pods-PrecoEuroApi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PrecoEuroApi/Pods-PrecoEuroApi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PrecoEuroApi/Pods-PrecoEuroApi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8A93C7E3280F28A200D3BA20 /* Sources */ = {
@@ -139,22 +209,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A93C7EF280F28A200D3BA20 /* ViewController.swift in Sources */,
+				8A93C7FF28103AD000D3BA20 /* Service.swift in Sources */,
 				8A93C7EB280F28A200D3BA20 /* AppDelegate.swift in Sources */,
 				8A93C7ED280F28A200D3BA20 /* SceneDelegate.swift in Sources */,
+				8A93C80128104FA400D3BA20 /* ViewCode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8A93C7F0280F28A200D3BA20 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8A93C7F1280F28A200D3BA20 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8A93C7F5280F28A300D3BA20 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,6 +348,7 @@
 		};
 		8A93C7FC280F28A300D3BA20 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41A259A3BBD34546C4F447A7 /* Pods-PrecoEuroApi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,7 +359,6 @@
 				INFOPLIST_FILE = PrecoEuroApi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,6 +376,7 @@
 		};
 		8A93C7FD280F28A300D3BA20 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A65710E6DC14F5873FCF46EC /* Pods-PrecoEuroApi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,7 +387,6 @@
 				INFOPLIST_FILE = PrecoEuroApi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

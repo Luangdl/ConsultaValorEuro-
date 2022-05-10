@@ -1,0 +1,16 @@
+PODS:
+  - TransitionButton (0.5.3)
+
+DEPENDENCIES:
+  - TransitionButton
+
+SPEC REPOS:
+  trunk:
+    - TransitionButton
+
+SPEC CHECKSUMS:
+  TransitionButton: 36283346e17c64775a1b3bc3a7a72940a367de1f
+
+PODFILE CHECKSUM: 47d51d295f0aea71d9755096beb9603a9f25c51e
+
+COCOAPODS: 1.11.2
